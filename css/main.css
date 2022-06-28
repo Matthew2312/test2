@@ -1,0 +1,31 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  font-family: 'Lato', sans-serif;
+  background-color: #333;
+  overflow: hidden;
+}
+
+.box {
+  padding: 80px 140px;
+  border-radius: 15px;
+  background-color: #222;
+  -webkit-box-shadow: 0 0 15px #008cff;
+          box-shadow: 0 0 15px #008cff;
+}
+/*# sourceMappingURL=main.css.map */
